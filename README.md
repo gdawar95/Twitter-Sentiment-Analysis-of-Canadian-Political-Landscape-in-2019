@@ -11,6 +11,7 @@ The Sentiment.csv file contains 130K+ labeled generic tweet texts. It had their 
 2. text the text of the tweet
 
 The second data set, Canadian_elections_2019.csv, contains a list of tweets regarding the 2019 Canadian elections. The fields of each line are:
+
 0. sentiment can be “positive” or “negative”
 1. negative_reason reason for negative tweets. Left blank for positive tweets.
 2. text the text of the tweet
