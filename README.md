@@ -18,4 +18,38 @@ The second data set, Canadian_elections_2019.csv, contains a list of tweets rega
 
 Both datasets have been collected directly from the web, so they may contain html tags, hashtags, and user tags.
 
+# INDEX of Notebook
 
+### 0.	NOTEBOOK PREPARATION
+    0.1	IMPORTING LIBRARIES
+    0.2	DEFINING FUNCTIONS
+### 1.	DATA PREPARATION
+    1.1	Checking for null values
+    1.2	Cleaning the tweets
+### 2.	DATA EXPLORATION
+### 3.	MODEL PREPARATION ON SETIMENTS.CSV
+    3.1	Trying multiple classification algorithms with hyper parameter tuning and cross val.
+        3.1.1	Logistic regression with hyp. param. tuning
+        3.1.2	k-NN with hyp. param. tuning
+        3.1.3	Naive Bayes with hyp. param. tuning
+        3.1.4	SVM with hyp. param. tuning
+        3.1.5	decision trees with hyp. param. tuning
+        3.1.6	Random Forest with hyp. param. tuning
+        3.1.7	XGBoost with hyp. param. tuning
+    3.2	Analysing the accuracy results of all the models
+
+### 4.	MODEL IMPLIMENTATION ON ELECTIONS
+    4.1	TF on Election Dataset
+    4.2	General tweet Model Implementation and testing on Election Dataset
+    4.3	Prediction Results Exploration
+### 5.	MODEL IMPLIMENTATION ON ELECTIONS TO CLASSIFY 'NEGATIVE REASON' OF ELECTION TWEETS
+    5.1	Exploring the negative reasons
+    5.2	Combining negative reason Categories
+    5.3	Implementing classification models
+### 6.	RESULTS
+### 7.	BONUS
+    7.1	Using Word2Vec Model instead of TF (Bag of Words)
+        7.1.1 Implementing All the classification models with w2v (Logistic Regression, SVM, decision tree, random forest, XG Boost)
+    7.2	Implementing N-Grams in Bag of Words and TF IDF
+        7.2.1	Implementing All the classification models with N-Grams (Logistic Regression, SVM, decision tree, random forest, XG Boost)
+        7.2.2	Implementing Log reg general model with ngrams on elections data set
