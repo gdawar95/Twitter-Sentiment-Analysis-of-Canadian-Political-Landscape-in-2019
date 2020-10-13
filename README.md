@@ -2,6 +2,8 @@
 
 The goal is to essentially use sentiment analysis on Twitter data to get insight into the 2019 Canadian elections
 
+#### Refer - Twitter_Sentiment_2019_overview_slides.pdf for overview
+
 ## Background
 Sentiment analysis is a technology of increasing importance in the modern society as it allows individuals and organizations to detect trends in public opinion by analyzing social media content. Keeping abreast of socio-political developments is especially important during periods of policy shifts such as election years, when both electoral candidates and companies can benefit from sentiment analysis by making appropriate changes to their campaigning and business strategies respectively.
 
